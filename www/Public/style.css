@@ -1,0 +1,145 @@
+/* Styles généraux */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+body {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding-bottom: 60px; /* Pour éviter que le footer recouvre le contenu */
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    max-width: 600px;
+    margin: 30px auto;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Formulaire */
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Alignement des boutons */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+/* Style des boutons */
+button {
+    padding: 10px 15px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Bouton Ajouter */
+button[type="submit"] {
+    background: green;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background: darkgreen;
+}
+
+/* Bouton Annuler */
+button[type="reset"] {
+    background: orange;
+    color: white;
+}
+
+button[type="reset"]:hover {
+    background: darkorange;
+}

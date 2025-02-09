@@ -1,0 +1,8 @@
+/:
+  controller: Vehicule
+  action: add
+
+
+/vehicule/save:
+  controller: Vehicule
+  action: save
